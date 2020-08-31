@@ -1,0 +1,140 @@
+{
+    "Services" : [
+        {
+            "id" : 2,
+            "icon_name":" fa fa-bar-chart fa-3x",
+            "title": "Lorem Ipsum",
+            "body": "ypesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer"
+        },
+        {
+            "id" : 1,
+            "icon_name": "fa fa-picture-o fa-3x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id" : 3,
+            "icon_name": "fa fa-shopping-bag fa-3x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id" : 4,
+            "icon_name": "fa fa-map fa-3x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        }
+    ],
+
+    "portfolio" : [
+        {
+            "id":1,
+            "image": "./images/work1.jpg"
+        },
+        {
+            "id":2,
+            "image": "./images/work2.jpg"
+        },
+        {
+            "id":3,
+            "image": "./images/work3.jpg"
+        },
+        {
+            "id":4,
+            "image": "./images/work4.jpg"
+        },
+        {
+            "id":5,
+            "image": "./images/work5.jpg"
+        },
+        {
+            "id":6,
+            "image": "./images/work6.jpg"
+        },
+        {
+            "id":7,
+            "image": "./images/work7.jpg"
+        },
+        {
+            "id":8,
+            "image": "./images/work8.jpg"
+        }
+    ],
+
+    "Testimonials" : [
+        {
+            "id":1,
+            "paragraph" :"making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' ",
+            "image": "./images/profile1.png",
+            "name" :"Saul Goodman",
+            "desc" :"Ceo and Founder"
+        },
+        {
+            "id":2,
+            "paragraph" :"making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy",
+            "image": "./images/profile2.png",
+            "name" :"Saul Goodman",
+            "desc" :"Ceo and Founder"
+        },
+        {
+            "id":3,
+            "paragraph" :"making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy",
+            "image": "./images/profile3.png",
+            "name" :"Saul Goodman",
+            "desc" :"Ceo and Founder"
+        }
+    
+    ],
+
+    "Team" : [
+        {
+            "id":1,
+            "image": "./images/team1.png",
+            "name" :"Walter White",
+            "desc" :"chief executive officer"
+        },
+        {
+            "id":2,
+            "image": "./images/team2.png",
+            "name" :"Saul Goodman",
+            "desc" :"Ceo and Founder"
+        },
+        {
+            "id":3,
+            "image": "./images/team3.png",
+            "name" :"Saul Goodman",
+            "desc" :"Ceo and Founder"
+        },
+        {
+            "id":4,
+            "image": "./images/team4.png",
+            "name" :"Saul Goodman",
+            "desc" :"Ceo and Founder"
+        }
+  
+    ],
+
+    "Contact" : [
+        {
+            "id":1,
+            "icon": "fa fa-map-marker fa-3x",
+            "title" :"Address",
+            "desc" :"A108 Adam Street, NY535022 USA"
+        },
+        {
+            "id":2,
+            "icon": "fa fa-phone fa-3x",
+            "title" :"Phone Number",
+            "desc" :"0797954623"
+        },
+        {
+            "id":3,
+            "icon": "fa fa-envelope-o fa-3x",
+            "title" :"Email",
+            "desc" :"asma.srour96@gmail.com"
+        }
+
+  
+    ]
+
+}

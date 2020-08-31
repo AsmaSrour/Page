@@ -1,0 +1,64 @@
+.Calls{
+    background-color: #091F5A;
+    height: 180px;
+}
+.Calls .container{
+    position: relative;
+}
+ .Calls .CallsItems{
+    padding: 30px 0px;
+}
+.Calls .CallsItems .CallsItem{
+    width: 70%;
+    float: left;
+}
+.Calls .CallsItems .Titles{
+    text-transform:capitalize !important;
+    color: white;
+}
+.Calls .CallsItems .desc{
+    color: #F9FAFB;
+    font-size: 12pt ;
+}
+.Calls .CallsItems .buttons.callbtn{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background: none;
+    border: solid 2px white;
+}
+.Calls .CallsItems .buttons.callbtn:hover{
+    background-color: #50D8AE;
+    border:none
+}
+/*Media queiry*/
+@media (max-width :1024px) {
+    .Calls{
+        height: 150px;
+    }
+}
+ 
+@media (max-width :414px) {
+    .Calls{
+        height: 150px;
+    }
+    .Calls .container{
+        position: static;
+    }
+     .Calls .CallsItems{
+        padding: 15px 0px;
+    }
+    .Calls .CallsItems .CallsItem{
+        width: 100%;
+        float: none;
+    }
+    .Calls .CallsItems .desc{
+        font-size: 12px ;
+    }
+    .Calls .CallsItems .buttons.callbtn{
+        position: static;
+        display: block;
+        margin-top: 10px;
+        border: solid 1px white;
+    }
+}

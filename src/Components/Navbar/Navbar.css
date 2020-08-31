@@ -1,0 +1,26 @@
+.navbar-brand h2 {
+    color: #0E2E8A;
+    font-weight: bold;
+    font-size: 40px;
+}
+.navbar-brand span {
+    color: #50D8AE;
+}
+.justify-content-end{
+    font-size: 15px;
+}
+.TheLink{
+    color: black !important;
+}
+.TheLink.active{
+    color:#50D8AE !important ;
+}
+.TheLink:hover{
+    color:#50D8AE !important;
+}
+#basic-nav-dropdown{
+    color: black;
+}
+#basic-nav-dropdown:hover{
+    color: #50D8AE;
+}

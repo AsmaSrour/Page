@@ -1,0 +1,65 @@
+.HomeHeader{
+    height:400px;
+    background-image: url('/images/home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(255, 255, 255, 0.699)
+}
+.HomeHeader .HomeInfo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.HomeHeader .HomeInfo .Title{
+    font-size: 50px;
+    color: #0E2E8A;
+}
+.HomeHeader .HomeInfo .Title a{
+    color: #50D8AE;
+    text-decoration: underline;
+}
+.HomeHeader .HomeInfo .btns{
+    display: inline-block;
+    margin-top: 40px;
+}
+.HomeHeader .HomeInfo .btns .buttons.firstbtn{
+    background-color: #0E2E8A;
+    margin-right: 20px;
+}
+.HomeHeader .HomeInfo .btns .buttons.firstbtn:hover{
+    background-color: #0a226b;
+}
+/*Media queiry*/
+@media (max-width :768px) {
+    .HomeHeader .HomeInfo .Title{
+        font-size: 40px;
+    }
+}
+ 
+@media (max-width :414px) {
+    .HomeHeader{
+        height:100vh;
+    }
+    .HomeHeader .HomeInfo .Title{
+        font-size: 40px;
+    }
+    .HomeHeader .HomeInfo .btns{
+        display:block;
+        margin-top: 25px;
+    }
+    .HomeHeader .HomeInfo .btns .buttons.firstbtn{
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+}

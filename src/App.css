@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+    width: 70% !important;
+    margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pd-y{
+    margin-top: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a{
+    text-decoration: none;
+    color: black;
 }
 
-.App-link {
-  color: #61dafb;
+ul{
+    list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Titles{
+    font-weight: bold;
+    font-size: 25px;
+	text-transform:uppercase;
+    color: #0E2E8A;
+}
+
+.desc{
+    font-size: 15px;
+    margin: 20px 0px;
+    color:gray;
+}
+
+.buttons{
+	background-color: #50D8AE;
+	color :white;
+	width :150px;
+	border :none;
+    padding : 10px;
+    cursor: pointer;
+}
+.buttons:hover{
+    background-color: #36a07e;
+}
+.line{
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin-top: 15px;
+    background: #50D8AE;
+} 
+
+.clear{
+    clear: both;
+}
+
+.allItems:last-child{
+    margin-right:0px ;
+}
+/*bollets*/
+.bollets{
+    text-align: center;
+}
+.bollets li{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #DDDDDD;
+    margin: 30px 5px;
+    border-radius: 50%;
+}
+.bollets li.active{
+    background-color: #50D8AE;
+}
+.bollets li:hover{
+    background-color: #50D8AE;
+}
+
+/*Media queiry*/
+@media (max-width :1024px) {
+    .container{
+        width: 90% !important;
+    }
+    .pd-y{
+        margin-top: 30px;
+    }
+    
+    .Titles{
+        font-size: 25px;
+    }
+    
+    .desc{
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+    
+    .line{
+        width: 40px;
+        height: 2px;
+        margin-top: 5px;
+    }
+    .buttons{
+        width :150px;
+        padding : 10px;
+    }
+}
+ 
+@media (max-width :414px) {
+.container{
+    width: 100% !important; 
+}
+
+.pd-y{
+    margin-top: 25px;
+}
+
+.Titles{
+    font-size: 20px;
+}
+
+.desc{
+    font-size: 12px;
+    margin: 10px 0px;
+}
+
+.line{
+    width: 30px;
+    height: 2px;
+    margin-top: 5px;
+}
+.buttons{
+	width :130px !important;
+    padding : 3px;
+}
 }

@@ -1,0 +1,53 @@
+.About .AboutImg{
+    float: left;
+    width: 50%;
+}
+.About .AboutImg img{
+    width:100%;
+    height: 350px;
+    
+}
+.About .AboutInfo{
+    float: right;
+    width: 50%;
+    padding-left: 50px;
+}
+.About .AboutInfo .Titles{
+    text-transform:capitalize !important;
+}
+.About .AboutInfo ul li {
+    display: block;
+    padding: 5px;
+}
+.About .AboutInfo ul li i {
+   color:#50D8AE;
+   margin-right: 10px;
+}
+
+/*Media queiry*/
+@media (max-width :768px) {
+    .About .AboutImg{
+        float: none;
+        width: 100%;
+    }
+    .About .AboutInfo{
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+    }
+    .About .AboutInfo .Titles{
+        margin-top: 10px;
+    }
+}
+ 
+@media (max-width :414px)  {
+    .About .AboutImg{
+        float: none;
+        width: 100%;
+    }
+    .About .AboutInfo{
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+    }
+}

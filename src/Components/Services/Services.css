@@ -1,0 +1,72 @@
+.Services .servicesItems{
+    box-shadow:5px 5px 5px 5px #F1F1F1 ;
+    margin-right:0px ;
+    margin-bottom: 30px;
+    width:48%;
+    height: 200px;
+    float: left;
+    padding: 30px;
+}
+.Services .servicesItems:nth-child(2n){
+    margin-right:30px ;
+}
+
+.Services .servicesItems i{
+    color: #50D8AE;
+    position: absolute;
+    margin: 15px 0px;
+}
+.Services .servicesItems .servicesItem{
+    position: relative;
+    padding-left: 80px;
+}
+.Services .servicesItems .servicesItem h4{
+    margin-bottom: 15px;
+}
+/*Effect*/
+.ltrEffect{
+    position: relative;
+}
+.ltrEffect::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(201, 201, 201, 0.712);
+    z-index: -1;
+    width: 0;
+    transition: width 0.5s;
+}
+.ltrEffect:hover:after{
+    width: 100%
+}
+
+/*Media queiry*/
+@media (max-width :1024px) {
+    .Services .servicesItems{
+        padding: 15px;
+    }
+    .Services .servicesItems:nth-child(2n){
+        margin-right:20px ;
+    }
+    
+    .Services .servicesItems .servicesItem p{
+        font-size: 15px;
+    }
+}
+ 
+@media (max-width :414px) {
+    .Services .servicesItems{
+        margin-right:0px ;
+        width:100%;
+        float: none;
+        padding: 20px;
+    }
+}
+@media (max-width :320px) {
+    .Services .servicesItems .servicesItem p{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,34 @@
+.ClientsItems{
+    display: block;
+   margin-top: 50px;
+   width: 100%;
+}
+.ClientsItems img{
+    height: 30px;
+    width: 15.5%;
+    float: left;
+    margin-right: 10px;
+}
+.ClientsItems img:last-child{
+    margin-right: 0px;
+}
+
+/*Media queiry*/
+@media (max-width :1024px) {
+    .ClientsItems img{
+        height: 30px;
+        width: 15%;
+        margin-right: 10px;
+    }
+}
+ 
+@media (max-width :414px) {
+    .ClientsItems{
+       margin-top: 20px;
+    }
+    .ClientsItems img{
+        height: 25px;
+        width: 15%;
+        margin-right: 6px;
+    }
+}

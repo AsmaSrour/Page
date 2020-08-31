@@ -1,0 +1,94 @@
+.ContactItems .ContactItem{
+    float: left;
+    width: 33.3%;
+    height: 200px;
+    text-align: center;
+    border-right: 1px solid #DDDDDD;
+    padding: 35px;
+    margin: 0px;
+}
+.ContactItems .ContactItem:last-child{
+    border-right: none;
+}
+.ContactItems .ContactItem i{
+    color:#50D8AE ;
+}
+.ContactItems .ContactItem h2{
+    color: #999999;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.Map{
+    margin: 30px 0;
+}
+/*form*/
+form {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+form input {
+    outline: 0;
+    padding: 15px;
+    margin-bottom: 10px;
+    border:2px solid #CED4D9;
+}
+
+form .form-input input {
+    width: 49%;
+}
+
+form .form-input input[type=text] {
+    float: left
+}
+
+form .form-input input[type=email] {
+    float: right
+}
+
+form input.sub {
+    width: 100%;
+}
+
+form textarea {
+    width: 100%;
+    padding: 15px;
+    outline: 0;
+    border:2px solid #CED4D9;
+}
+
+form input[type=submit] {
+   margin-top: 10px;
+}
+
+/*Media queiry*/
+@media (max-width :1024px) {
+    .ContactItems .ContactItem{
+        padding: 10px;
+        height: 100px;
+    }
+    .ContactItems .ContactItem h2{
+        font-size: 15px;
+        margin: 5px 0px;
+    }
+    .ContactItems .ContactItem span{
+        font-size: 10px;
+    }
+}
+ 
+@media (max-width :414px) {
+    .ContactItems .ContactItem{
+        padding: 10px;
+    }
+    .ContactItems .ContactItem h2{
+        font-size: 10px;
+        margin: 5px 0px;
+    }
+    .ContactItems .ContactItem span{
+        font-size: 7px;
+    }
+    .Map{
+        margin: 30px 0;
+    }
+}
